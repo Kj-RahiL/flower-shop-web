@@ -17,7 +17,8 @@
 .header a {
     text-decoration: none;
 }
-.logo{
+
+.logo {
     font-size: 48px;
     font-weight: bold;
     color: #fff;
@@ -25,7 +26,7 @@
 
 .logo-text {
     color: #E55473;
-    
+
 }
 
 .navbar {
@@ -34,4 +35,52 @@
     justify-content: space-around;
     gap: 20px;
     padding: 15px;
+}
+
+/* banner section design */
+.banner-container {
+    background-color: #E554731A;
+
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    gap: 100px;
+}
+
+.banner-img {
+    position: bottom right;
+    margin-bottom: 0px;
+
+}
+
+.ban-pic {
+    width: 435px;
+    height: 575px;
+
+    margin-bottom: -3px;
+}
+
+.banner-text {}
+
+.banner-head {
+    color: #272727;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px; 
+    padding: 20px 0;
+}
+
+.banner-button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    gap: 10px;
+    border: none;
 }
