@@ -51,15 +51,12 @@
 
 .banner-img {
     position: bottom right;
-    margin-bottom: 0px;
 
 }
 
 .ban-pic {
-    width: 435px;
-    height: 575px;
-
-    margin-bottom: -3px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .banner-text {}
@@ -85,7 +82,63 @@
     border: none;
 }
 
+/* feature section */
+
 .feature-container {}
+.feature-text{
+    text-align: center;
+    padding: 25px;
+}
+
+.feature-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    padding: 25px;
+
+
+}
+
+.img-box {
+    position: relative;
+
+    width: 24%;
+    height: 350px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.img-box a{
+   padding: 20px 0 0;
+   color: black;
+   margin-bottom: 10px;
+}
+.img-fea1 {
+    width: 100%;
+    height: 300PX;
+    margin-bottom: 25px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.img-fea2 {
+    width: 100%;
+    height: 300PX;
+    margin-bottom: 25px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.img-fea3 {
+    width: 100%;
+    height: 300PX;
+    margin-bottom: 25px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
 
 /* deals section */
 
@@ -164,6 +217,7 @@
     font-size: 16px;
     color: rgb(155, 150, 150);
 }
+
 .social-images {
     display: flex;
 
@@ -174,36 +228,59 @@
     width: 24%;
     margin: 0 auto;
     gap: 10px;
-    padding: 20px 0px; 
+    padding: 20px 0px;
 
 }
 
 .img1 {}
 
-.social-bg{
+.social-bg {
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     padding: 10px;
-    margin-bottom:100px ;
+    margin-bottom: 100px;
     margin-top: 100px;
-    
+
 
 }
-.social-bg h4{
+
+.social-bg h4 {
     padding: 120px 0 5px 0;
     font-size: 20px;
     font-weight: 800;
 }
-.social-bg p{
+
+.social-bg p {
     font-size: 16px;
     color: rgba(39, 39, 39, 0.60);
 }
 
-.social-bg input{
+.social-bg input {
     margin: 15px;
     padding: 22px 250px 22px 22px;
     border-radius: 5px;
     border: none;
+}
+
+/* footer  */
+.footer-container {
+    background: #111010;
+    text-align: center;
+    padding: 100px 400px;
+    color: white;
+
+}
+
+.footer-container p {
+    color: rgba(255, 255, 255, 0.90);
+
+    font-size: 16px;
+    padding: 20px;
+}
+
+.footer-container>p small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
 }
