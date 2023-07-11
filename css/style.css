@@ -72,7 +72,7 @@
 
 .banner-des {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 14px; 
+    font-size: 14px;
     padding: 20px 0;
 }
 
@@ -84,9 +84,8 @@
     gap: 10px;
     border: none;
 }
-.feature-container{
 
-}
+.feature-container {}
 
 /* deals section */
 
@@ -106,16 +105,17 @@
     padding: 0px 0;
 
 }
-.deals-text{
+
+.deals-text {
     text-align: center;
 }
 
 .deals-pic {
     width: 240px;
     height: 300px;
-   
+
     margin: 100px 0;
-    
+
 }
 
 .deals-head {
@@ -126,7 +126,7 @@
 
 .deals-des {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 14px; 
+    font-size: 14px;
     padding: 10px 0;
 }
 
@@ -136,5 +136,72 @@
     padding: 10px 21px;
     color: white;
     gap: 10px;
+    border: none;
+}
+
+/* social section */
+.social-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social-text {
+    color: #272727;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.social-head {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.social-des {
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(155, 150, 150);
+}
+.social-images {
+    display: flex;
+
+
+}
+
+.img {
+    width: 24%;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 20px 0px; 
+
+}
+
+.img1 {}
+
+.social-bg{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.social-bg h4{
+    padding: 120px 0 5px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.social-bg p{
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.social-bg input{
+    margin: 15px;
+    padding: 22px 250px 22px 22px;
+    border-radius: 5px;
     border: none;
 }
